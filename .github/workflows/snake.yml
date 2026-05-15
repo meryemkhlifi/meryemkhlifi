@@ -1,0 +1,20 @@
+name: Generate Snake Game
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # runs daily at midnight UTC
+  workflow_dispatch: # allows you to run it manually
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate Snake Game from Contribution Grid
+        uses: Platane/snk@v3.5.0
+        with:
+          github_user_name: Meryemkhlifi
+          github_token: ${{ github.token }}
+          outputs: |
+            snake.gif?color_snake=#D4537E&color_dots=#191724,#26233a,#c4a7e7,#eb6f92,#D4537E
+            github-snake-dark.svg?palette=github-dark&color_snake=#D4537E
+            github-snake.svg?palette=github-light&color_snake=#D4537E
