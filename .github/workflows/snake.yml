@@ -12,7 +12,7 @@ jobs:
       - name: Generate Snake Game from Contribution Grid
         uses: Platane/snk@v3.5.0
         with:
-          github_user_name: Meryemkhlifi
+          github_user_name: meryemkhlifi
           github_token: ${{ github.token }}
           outputs: |
             snake.gif?color_snake=#D4537E&color_dots=#191724,#26233a,#c4a7e7,#eb6f92,#D4537E
