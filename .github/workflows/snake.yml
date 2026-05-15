@@ -18,7 +18,6 @@ jobs:
           github_user_name: Meryemkhlifi
           github_token: ${{ secrets.GITHUB_TOKEN }}
           outputs: |
-            dist/github-snake.svg?palette=github-light&color_snake=#D4537E
             dist/github-snake-dark.svg?palette=github-dark&color_snake=#D4537E
             dist/snake.gif?color_snake=#D4537E&color_dots=#191724,#26233a,#c4a7e7,#eb6f92,#D4537E
 
