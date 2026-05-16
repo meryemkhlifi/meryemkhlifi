@@ -126,10 +126,9 @@ designing on the side — because data deserves to look good
 ### stats
 
 <div align="center">
-
+<!--
 <img src="https://github-readme-stats.vercel.app/api?username=Meryemkhlifi&theme=rose_pine&hide_border=true&include_all_commits=true&count_private=true&show_icons=true&title_color=D4537E&icon_color=D4537E&text_color=c4a7e7&bg_color=191724" height="170"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Meryemkhlifi&theme=rose_pine&hide_border=true&layout=compact&langs_count=8&title_color=D4537E&text_color=c4a7e7&bg_color=191724" height="170"/>
-
 <br/><br/>
 
 <img src="https://streak-stats.demolab.com?user=Meryemkhlifi&theme=rose_pine&hide_border=true&date_format=%5BY%5D%20M%20j" />
